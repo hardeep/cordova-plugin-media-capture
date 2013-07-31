@@ -38,7 +38,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Capture" >
-                <param name="android-package" value="org.apache.cordova.core.Capture"/>
+                <param name="android-package" value="org.apache.cordova.mediacapture.Capture"/>
             </feature>
         </config-file>
         
@@ -48,7 +48,7 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
 
-        <source-file src="src/android/Capture.java" target-dir="src/org/apache/cordova/core" />
+        <source-file src="src/android/Capture.java" target-dir="src/org/apache/cordova/mediacapture" />
     </platform>
     
     <!-- ios -->
